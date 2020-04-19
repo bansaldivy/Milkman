@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    class="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:id="@+id/received1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order has been delivered to your address"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/received2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/received1"
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:text="Try Out Some more interesting items"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_received"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorWhiteDull"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/received2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_background"
+        android:text="Click Here" />
+
+    <TextView
+        android:id="@+id/received3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_received"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="200dp"
+        android:text="Thank You for Shopping with Us!"
+        android:textStyle="bold" />
+
+</RelativeLayout>

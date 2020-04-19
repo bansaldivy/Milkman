@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home_navigation"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/plans_navigation"
+        android:icon="@drawable/ic_plans"
+        android:title="Plans" />
+    <item
+        android:id="@+id/delivery_navigation"
+        android:icon="@drawable/delivericon"
+        android:title="Delivery" />
+    <item
+        android:id="@+id/account_navigation"
+        android:icon="@drawable/ic_person_black_24dp"
+        android:iconTint="#ffff"
+        android:title="Account" />
+
+
+</menu>

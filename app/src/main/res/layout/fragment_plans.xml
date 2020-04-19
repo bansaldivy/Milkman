@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".Fragment.PlansFragment">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_plans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:background="@color/colorWhite"
+                android:src="@drawable/plansicon" />
+
+            <TextView
+                android:id="@+id/text_plans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/img_plans"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:text="You have not Ordered Till Date"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/text_plans2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_plans"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:text="Browse through the home and Order" />
+
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_plans2"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_background"
+                android:text="Go to Home" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_home"
+                android:layout_marginTop="30dp"
+                android:text="HAPPY SHOPPING"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="@dimen/activity_horizontal_margin"/>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
+</FrameLayout>
